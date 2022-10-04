@@ -10,7 +10,7 @@ public class Primes {
     }
     // метод проверяющий является ли число простым
     public static boolean IsPrime(int n) {
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+        for (int i = 2; i <= (int) Math.sqrt(n); i++) {
                 if (n % i == 0) {
                     return false;
                 }
